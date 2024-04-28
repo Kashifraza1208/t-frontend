@@ -1,0 +1,28 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "commonjs",
+		"jsx": "preserve",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"checkJs": false,
+		"sourceMap": true,
+		"outDir": "./dist",
+		"rootDir": "./",
+		"esModuleInterop": true,
+		"strict": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"noEmit": true,
+		"isolatedModules": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"incremental": true
+	},
+	"include": [
+		"./**/*.ts",
+		"./**/*.tsx",
+		"src/components/Header/CategoryNavbar.jsx"
+, "src/components/Header/Select.jsx", "src/components/Header/MainMenu.jsx"	],
+	"exclude": ["node_modules"]
+}

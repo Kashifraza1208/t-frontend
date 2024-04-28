@@ -1,0 +1,10 @@
+{
+	"fullName": "John Doe",
+	"email": "john.doe@example.com",
+	"mobileNumber": "0123456789",
+	"gender": "male",
+	"birthday": "1990-01-01",
+	"location": "New York",
+	"alternativeMobile": "9876543210",
+	"nickname": "JD"
+}

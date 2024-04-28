@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'Poppins Semi-Bold';
+		src: url('../public/fonts/Poppins-SemiBold.ttf');
+	}
+	@font-face {
+		font-family: 'Poppins Regular';
+		src: url('../public/fonts/Poppins-Regular.ttf');
+	}
+	@font-face {
+		font-family: 'Poppins Medium';
+		src: url('../public/fonts/Poppins-Medium.ttf');
+	}
+}
+
+/* Hide the default scrollbar */
+.grid-container {
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* Internet Explorer/Edge */
+}
+
+/* Hide scrollbar for WebKit browsers (e.g., Chrome, Safari) */
+.grid-container::-webkit-scrollbar {
+	width: 0; /* Adjust as needed */
+	height: 0;
+}
+
+.grid-container::-webkit-scrollbar-track {
+	background: transparent; /* Background color of the track */
+}
+
+.grid-container::-webkit-scrollbar-thumb {
+	background-color: #888; /* Color of the scrollbar thumb */
+}
+
+/* Style scrollbar when hovered over */
+.grid-container::-webkit-scrollbar-thumb:hover {
+	background-color: #555; /* Adjust as needed */
+}
+
+@keyframes typing {
+	0% {
+		width: 0;
+	}
+	5.26% {
+		width: 5%;
+	}
+	10.53% {
+		width: 10%;
+	}
+	15.79% {
+		width: 15%;
+	}
+	21.05% {
+		width: 21%;
+	}
+	26.32% {
+		width: 26%;
+	}
+	31.58% {
+		width: 31%;
+	}
+	36.84% {
+		width: 36%;
+	}
+	42.11% {
+		width: 42%;
+	}
+	47.37% {
+		width: 47%;
+	}
+	52.63% {
+		width: 52%;
+	}
+	57.89% {
+		width: 57%;
+	}
+	63.16% {
+		width: 63%;
+	}
+	68.42% {
+		width: 68%;
+	}
+	73.68% {
+		width: 73%;
+	}
+	78.95% {
+		width: 78%;
+	}
+	84.21% {
+		width: 84%;
+	}
+	89.47% {
+		width: 89%;
+	}
+	94.74% {
+		width: 94%;
+	}
+	100% {
+		width: 100%;
+		color: #ff1b68;
+	}
+}
+
+.hero-text {
+	width: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typing 3s steps(19) infinite alternate;
+}
+
+/* ......... */

@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"like": "4.3",
+		"count": "96",
+		"imageName": "store1",
+		"shop": "Fresh Mart",
+		"logo": "bxs_offer.png",
+		"discount": "Flat 20% OFF",
+		"text": "open",
+		"location": "New Delhi",
+		"distance": "-8km"
+	},
+	{
+		"id": 2,
+		"like": "4.3",
+		"count": "96",
+		"imageName": "store2",
+		"shop": "Harvest Mart",
+		"logo": "bxs_offer.png",
+		"discount": "Flat 20% OFF",
+		"text": "closed",
+		"location": "Chennai",
+		"distance": "-6km"
+	}
+]
